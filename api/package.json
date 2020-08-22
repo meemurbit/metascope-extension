@@ -1,0 +1,29 @@
+{
+  "name": "metascope-api",
+  "version": "0.0.1",
+  "description": "A stateless relay/proxy API for metascope",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meemurbit/metascope-extension.git"
+  },
+  "keywords": [
+    "Metascope",
+    "Metagame"
+  ],
+  "author": "Meemurbit",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/meemurbit/metascope-extension/issues"
+  },
+  "homepage": "https://github.com/meemurbit/metascope-extension#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0"
+  }
+}
